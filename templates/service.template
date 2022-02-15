@@ -1,0 +1,10 @@
+fx.Service("{{name}}", function(events){
+	
+	return {
+			init : function(){
+				this.super().init();
+				
+			}
+		}
+
+});

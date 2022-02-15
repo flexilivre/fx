@@ -1,0 +1,35 @@
+/**
+ * {{name}} constructor
+ * @constructor {{fullname}}
+ */
+ fx.Component("{{fullname}}", function(parameters, dom, router, events, ns){
+
+	return {
+		init : function(){
+			this.super().init();
+		},
+		createChildren : function(){
+			this.super().createChildren();
+		},
+		destroyChildren : function(){
+			this.super().destroyChildren();
+		},
+		setupHandlers : function(){
+			this.super().setupHandlers();
+		},
+		destroyHandlers : function(){
+			this.super().destroyHandlers();
+		},
+		enable : function(){
+			this.super().enable();
+		},
+		disable : function(){
+			this.super().disable();
+		},
+		render : function(){
+			return "";
+		}
+	}
+	
+
+});
